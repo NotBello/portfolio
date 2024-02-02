@@ -84,7 +84,6 @@ with st.container():
                 - Python
                 - C#
                 - C++
-                - QBasic
                 - Java
                 - ASM x86
 
