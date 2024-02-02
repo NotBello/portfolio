@@ -8,8 +8,8 @@ with st.container():
     st.header("Hello there, I'm Venujan Malaiyandi :wave:")
     st.write('A cyber-security student at the crossroads of offensive security and machine learning')
 
-value = 25
-st.progress(value, text="Website Development Progress: 25%")
+value = 30
+st.progress(value, text="Website Development Progress: 30%")
 
 with st.container():
     st.write("---")
@@ -53,6 +53,23 @@ with st.container():
             - Windows Priviledge Escalation
                 - Winpeas    
              """)
+
+    st.header("Machine Learning :brain:")   
+    st.write("""
+            - Classic Machine Learning
+                - Linear Regression
+                - Linear Classification
+                - Polynomial Regression
+                - Support Vector Machines
+                - K-Nearest Neighbours
+                - Decision Trees
+                - Random Forest Tree Clustering
+                - Kmeans Clustering
+                - Agglomerative Hierarchical Clustering
+                - DBSCAN
+            - Feature Selection
+            - Hyper Parameter Tuning
+            """)
              
     st.header("Data Analytics :bar_chart:")   
     st.write("""
