@@ -35,7 +35,7 @@ with st.container():
     st.link_button("Repo", "https://github.com/NotBello/vulnerability-scanner")
 
     st.header("Port Scanner")
-    st.write("After tired of being a script kiddy, I created my own port scanner using mutli threading for faster results")
+    st.write("After tired of being a script kidy, I created my own port scanner using mutli threading for faster results")
     st.write("Libraries Used: optparser, socket, threading, termcolor")
     st.write("Language Used: Python 3")
     st.link_button("Repo", "https://github.com/NotBello/advance-port-scanner")
