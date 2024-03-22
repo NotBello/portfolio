@@ -18,9 +18,9 @@ with st.container():
     st.write("I created a console based bruteforcing application for knocking down your SSH port :)")
     st.write("Though you still need a good list")
     st.write("Libraries Used: Pexpect")
-    st.link_button("Repo", "https://github.com/NotBello/ssh-brute" )
+    st.link_button("Repo", "https://github.com/NotBello/ssh-brute")
 
-    st.header()
+    
 with st.container():
     st.write("---")
     st.title("About Me")
