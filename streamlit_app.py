@@ -6,7 +6,7 @@ st.set_page_config(page_title="My Portfolio")
 
 with st.container():
     st.header("Hello there, I'm Venujan Malaiyandi :wave:")
-    st.write('A cyber-security student at the crossroads of offensive security and machine learning')
+    st.write('A cyber-security student at the crossroads of offensive security, IoT and machine learning')
 
 value = 30
 st.progress(value, text="Website Development Progress: 30%")
