@@ -29,6 +29,9 @@ With boundless enthusiasm and a relentless drive for innovation, I'm excited to 
     email_link = f"[Let's connect and discover the endless possibilities together!](mailto:{email_address})"
     st.markdown(email_link, unsafe_allow_html=True)
 
+st.write("---")
+with st.container():
+    st.title("My Projects")
 
 st.write("---")
 with st.container():    
