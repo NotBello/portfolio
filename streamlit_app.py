@@ -35,11 +35,10 @@ with st.container():
     st.link_button("Repo", "https://github.com/NotBello/vulnerability-scanner")
 
     st.header("Port Scanner")
-    st.write("I wanted to know how smart was your average nmap tool. And so I created my own. Listens for the server banner and compares it with a list of vulnerable services and versions")
-    st.write("To get the best of this tool, populate the list with the common vulnerable services.")
-    st.write("Libraries Used: socket, os, sys")
-    st.write("Language Used: Python 2")
-    st.link_button("Repo", "https://github.com/NotBello/vulnerability-scanner")
+    st.write("After tired of being a script kiddy, I created my own port scanner using mutli threading for faster results")
+    st.write("Libraries Used: optparser, socket, threading, termcolor")
+    st.write("Language Used: Python 3")
+    st.link_button("Repo", "https://github.com/NotBello/advance-port-scanner")
 
     st.header("Network Analysis on Vulnerable networks")
     st.write("Conducted on analysis in behavior on SDN networks under attack, based on real life topologies. Setup labs using mininet and onos controller")
