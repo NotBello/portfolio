@@ -14,33 +14,37 @@ st.progress(value, text="Website Development Progress: 30%")
 st.write("---")
 with st.container():
     st.title("My Projects")
-    st.header("SSH Brute")
+    st.header("SSH Brute Forcer - Offensive Pentesting Tool")
     st.write("I created a console based bruteforcing application for knocking down your SSH port :)")
     st.write("Though you still need a good list")
-    st.write("Libraries Used: Pexpect")
+    st.write("Libraries Used: pexpect")
+    st.write("Language Used: Python 3")
     st.link_button("Repo", "https://github.com/NotBello/ssh-brute")
 
-    
-with st.container():
-    st.write("---")
-    st.title("About Me")
-    st.write("""
-                Greetings! I'm Venujan Malaiyandi, but you may know me as 'Bello'. I hail from the vibrant lands of Sri Lanka but spent my formative years soaking in the bustling energy of Chennai. With a passion for continuous learning and exploration, I've eagerly delved into the realm of technology, honing my skills and nurturing my curiosity every step of the way.
+    st.header("Automated SSH Command Parser")
+    st.write("As a proof of concept for future program, I created an automation program in python to login into target hosts via ssh and pass terminal commands.")
+    st.write("Libraries Used: pexpect")
+    st.write("Language Used: Python 3")
+    st.link_button("Repo", "https://github.com/NotBello/automated-ssh-command-passer")
 
-During my undergraduate journey, my focus has been on the intriguing intersection of offensive web security and classical machine learning techniques, with a burgeoning interest in the depths of deep learning. My ultimate aim? To seamlessly blend offensive security practices with the power of deep learning algorithms.
+    st.header("Custom Vulnerability Scanner")
+    st.write("I wanted to know how smart was your average nmap tool. And so I created my own. Listens for the server banner and compares it with a list of vulnerable services and versions")
+    st.write("To get the best of this tool, populate the list with the common vulnerable services.")
+    st.write("Libraries Used: socket, os, sys")
+    st.write("Language Used: Python 2")
+    st.link_button("Repo", "https://github.com/NotBello/vulnerability-scanner")
 
-Alongside my academic pursuits, I've eagerly pursued certifications in diverse areas such as AR/VR, SEO, and administration, all in a quest to discover where my true passion lies within the vast landscape of technology.
+    st.header("Port Scanner")
+    st.write("I wanted to know how smart was your average nmap tool. And so I created my own. Listens for the server banner and compares it with a list of vulnerable services and versions")
+    st.write("To get the best of this tool, populate the list with the common vulnerable services.")
+    st.write("Libraries Used: socket, os, sys")
+    st.write("Language Used: Python 2")
+    st.link_button("Repo", "https://github.com/NotBello/vulnerability-scanner")
 
-But wait, there's more! I'm absolutely captivated by the world of autonomous systems, UAVs, and drones—particularly within the realm of defense technology.
+    st.header("Network Analysis on Vulnerable networks")
+    st.write("Conducted on analysis in behavior on SDN networks under attack, based on real life topologies. Setup labs using mininet and onos controller")
+    st.write("Softwares Involved: mininet, onos controller, iperf, jperf, low orbit ion cannon")
 
-With boundless enthusiasm and a relentless drive for innovation, I'm excited to embark on this journey of exploration, discovery, and creation within the ever-evolving tech landscape. Let's connect and discover the endless possibilities together
-             """)
-    email_address = "venujan42@gmail.com"
-    email_link = f"[Let's connect and discover the endless possibilities together!](mailto:{email_address})"
-    st.markdown(email_link, unsafe_allow_html=True)
-
-
-st.write("---")
 with st.container():    
     st.title("My Tech Stack")
     st.header("Offensive Security :skull_and_crossbones:")
@@ -124,3 +128,24 @@ with st.container():
                 - Python 
              """)
     
+
+with st.container():
+    st.write("---")
+    st.title("About Me")
+    st.write("""
+                Greetings! I'm Venujan Malaiyandi, but you may know me as 'Bello'. I hail from the vibrant lands of Sri Lanka but spent my formative years soaking in the bustling energy of Chennai. With a passion for continuous learning and exploration, I've eagerly delved into the realm of technology, honing my skills and nurturing my curiosity every step of the way.
+
+During my undergraduate journey, my focus has been on the intriguing intersection of offensive web security and classical machine learning techniques, with a burgeoning interest in the depths of deep learning. My ultimate aim? To seamlessly blend offensive security practices with the power of deep learning algorithms.
+
+Alongside my academic pursuits, I've eagerly pursued certifications in diverse areas such as AR/VR, SEO, and administration, all in a quest to discover where my true passion lies within the vast landscape of technology.
+
+But wait, there's more! I'm absolutely captivated by the world of autonomous systems, UAVs, and drones—particularly within the realm of defense technology.
+
+With boundless enthusiasm and a relentless drive for innovation, I'm excited to embark on this journey of exploration, discovery, and creation within the ever-evolving tech landscape. Let's connect and discover the endless possibilities together
+             """)
+    email_address = "venujan42@gmail.com"
+    email_link = f"[Let's connect and discover the endless possibilities together!](mailto:{email_address})"
+    st.markdown(email_link, unsafe_allow_html=True)
+
+
+st.write("---")
